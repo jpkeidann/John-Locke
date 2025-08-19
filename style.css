@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@keyframes slide-bottom{0%{transform:translateY(0)}100%{transform:translateY(100px)}}
+@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.animaçãoImg{animation:slide-bottom 1.5s cubic-bezier(.25,.46,.45,.94) both;
+
+}
+
+.textoBonitin{animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;
+
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+}
+
+
+a:hover {
+    background: linear-gradient(to right, rgb(192, 192, 192) , rgb(179, 179, 179) , rgb(153, 153, 153));
+    border-radius: 10px;
+    height: 50%;
+}
+
+a{
+    padding-top: 10px;
+    width: 6rem;
+    font-size: 150%;
+    margin-top: 3%; 
+    font-family: DM Sans;
+}
+
+#rubens{
+    width: 401px;
+    height: 401px;
+    display: flex;
+    justify-items: right;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+p{
+font-size: 1.1rem;
+font-family: DM Sans;
+}
