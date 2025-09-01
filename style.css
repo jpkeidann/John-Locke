@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-@keyframes slide-bottom{0%{transform:translateY(0)}100%{transform:translateY(100px)}}
 @keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
 
-.animaçãoImg{animation:slide-bottom 1.5s cubic-bezier(.25,.46,.45,.94) both;
-
+img{
+    width: 401px;
+    height: 401px;
+    display: block;
+    margin: 0 auto;
 }
 
-.textoBonitin{animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;
-
+h1{animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;
+    font-size: 2.5rem;
+    font-family: DM Sans;
 }
 
 body{
@@ -48,11 +51,14 @@ a{
     background-color: rgb(151, 151, 151);
 }
 
-img{
+h1{
+    font-size: 2.5rem;
+    font-family: DM Sans;
+}
+
+video{
     width: 401px;
     height: 401px;
-    display: block;
-    margin: 0 auto;
 }
 
 p{
